@@ -28,7 +28,7 @@ void ABaseEnemy::BeginPlay()
 
 	GridManager = Cast<AGridManager>(foundactor[0]);
 
-
+	//master do sth here
 }
 
 // Called every frame
