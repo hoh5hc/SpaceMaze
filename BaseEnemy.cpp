@@ -27,7 +27,7 @@ void ABaseEnemy::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGridManager::StaticClass(), foundactor);
 
 	GridManager = Cast<AGridManager>(foundactor[0]);
-
+	//master do again in web
 	//master do sth here
 }
 
