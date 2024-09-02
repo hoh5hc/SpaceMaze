@@ -26,6 +26,8 @@ AMazeActor::AMazeActor()
 	ProceduralMaze->bUseAsyncCooking = true;
 	//example task
 	//exampe on buxgib
+
+	//i fix again
 }
 void AMazeActor::PostActorCreated()
 {
