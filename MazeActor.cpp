@@ -24,7 +24,7 @@ AMazeActor::AMazeActor()
 	ProceduralMaze = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("ProceduralMaze"));
 	ProceduralMaze->SetupAttachment(Scene);
 	ProceduralMaze->bUseAsyncCooking = true;
-
+	//example task
 
 }
 void AMazeActor::PostActorCreated()
